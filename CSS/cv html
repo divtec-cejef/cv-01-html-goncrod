@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+</head>
+<body>
+    <h1>Mon CV</h1>
+
+    <h2>Informations personnelles</h2>
+    <p><strong>Nom :</strong> [Ton Nom]</p>
+    <p><strong>Adresse :</strong> [Ton Adresse]</p>
+    <p><strong>Email :</strong> [Ton Email]</p>
+    <p><strong>Téléphone :</strong> [Ton Téléphone]</p>
+
+    <h2>Profil</h2>
+    <p>Je suis un(e) débutant(e) en HTML et je cherche à apprendre à créer des pages Web. J'aime résoudre des problèmes et apprendre de nouvelles technologies.</p>
+
+    <h2>Formation</h2>
+    <ul>
+        <li><strong>[Nom du diplôme]</strong> - [Établissement], [Année]</li>
+        <li><strong>[Nom du diplôme ou cours]</strong> - [Établissement ou plateforme], [Année]</li>
+    </ul>
+
+    <h2>Compétences</h2>
+    <ul>
+        <li>HTML (niveau débutant)</li>
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Bonne capacité à apprendre rapidement</li>
+    </ul>
+
+    <h2>Expérience</h2>
+    <p>Je n'ai pas encore d'expérience professionnelle, mais je suis motivé(e) pour en acquérir.</p>
+
+    <h2>Centres d'intérêt</h2>
+    <ul>
+        <li>Lecture</li>
+        <li>Jeux vidéo</li>
+        <li>Technologie et programmation</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Vous pouvez me contacter par email : <a href="mailto:[Ton Email]">[Ton Email]</a></p>
+</body>
+</html>
 
