@@ -6,13 +6,88 @@
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titre de la page -->
-    <title>CV Rodrigo Gonçalves | Création d'un CV</title>
+    <title>MON CV</title><!-- TODO ajouter nom et prénom -->
     <!-- Auteur -->
-    <meta name="author" content="Rodrigo Gonçalvesr">
+    <meta name="author" content="Rodrigo Gonçalves">
     <!-- Description de la page -->
-    <meta name="description" content="Création d'un CV en site web.">
+    <meta name="description" content="Apprenti de première année à L'EMT">
+    <!-- Reset CSS Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <!-- CSS de base -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- Favicon -->
+    <!-- TODO Ajouter un icone avec le site https://favicon.io/ -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> -->
 </head>
 <body>
-    <h1>Titre principal de la page</h1>
+  <header>
+    <!-- TODO pas d'espace, pas de majuscules, pas d'accents dans les noms de fichiers et dossiers -->
+    <!-- Lien vers une image utilisée comme logo -->
+      <a class="logo" href="../img/image cv.jpg">
+        <img src="../img/image cv.jpg" alt="Logo CV">
+    </a>
+    <!-- TODO Lien vide à supprimer -->
+    <a href="img/image cv.jpg" class="logo CV"></a>
+    <!-- Navigation avec des liens vers différentes sections du CV -->
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="#formation">Ma formation</a>
+            </li>
+             <li>
+                <a href="#expe">Mon experience</a>
+            </li>
+             <li>
+                <a href="#comp">Mes compétences</a>
+            </li>
+        </ul>
+    </nav>
+  </header> 
+
+    <!-- Section principale contenant les informations du CV -->
+    <main>
+        <!-- Titre principal : Nom et titre professionnel -->
+        <h1 id="top">Rodrigo Gonçalves</h1>
+        <p>Apprenti Informaticien</p>
+
+        <!-- Section des expériences professionnelles -->
+        <h2 id="expe">Mes expériences professionnelles</h2>
+        <ul>
+            <!-- Expérience professionnelle -->
+            <li><strong>Depuis 2024</strong> Je n'ai pas encore d'expérience vu que je suis en première année</li>
+        </ul>
+
+        <!-- Section des compétences -->
+        <h2 id="comp">Mes compétences</h2>
+        <ul>
+            <!-- Liste des compétences techniques -->
+            <li>HTML / CSS</li>
+            <li>SQL</li>
+            <li>C++</li>
+        </ul>
+
+        <!-- Section de la formation -->
+        <h2 id="formation">Ma formation</h2>
+        <ul>
+            <!-- Liste des formations suivies -->
+            <li>École primaire de Courrendlin</li>
+            <li>École secondaire de Courrendlin</li>
+            <li>Formation Informaticien (en cours)</li>
+        </ul>
+
+        <!-- Image ajoutée à la fin du CV -->
+        <img src="img/image fin cv.jpg" alt="Homer Simpson" width="300">
+    </main>
+
+    <!-- Section pied de page -->
+    <footer>
+        <!-- Copyright et adresse e-mail -->
+        ©2024 - Rodrigo Gonçalves | 
+        <a href="mailto:rodrigo.goncalvesfernandesdasilva@divtec.ch">rodrigo.goncalvesfernandesdasilva@divtec.ch</a>
+    </footer>
 </body>
-</html>
